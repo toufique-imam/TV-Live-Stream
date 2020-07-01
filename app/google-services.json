@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "588648492120",
+    "firebase_url": "https://playtvgo-6015a.firebaseio.com",
+    "project_id": "playtvgo-6015a",
+    "storage_bucket": "playtvgo-6015a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588648492120:android:bd9a4d0c494b43022a6e2d",
+        "android_client_info": {
+          "package_name": "com.playtv.go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588648492120-bqql3gtngut2prj0nrvvjgnbq6bkakeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.playtv.go",
+            "certificate_hash": "f924bec7841b09a0287dee5fc12323497aadd4b9"
+          }
+        },
+        {
+          "client_id": "588648492120-el89ados5i9tnge6dog6b18pl5drbnmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4_YzhNlJWeK8LnRinzrLk63rmzANoGts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588648492120-el89ados5i9tnge6dog6b18pl5drbnmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

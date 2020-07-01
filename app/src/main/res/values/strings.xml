@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Play!TV GO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">play!TV GO</string>
+    <string name="nav_header_subtitle">One Stop Location to Steam TV</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">TV</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="login_hint_text">Para iniciar agrega una lista m3u:</string>
+    <string name="telegram_grp_text">Si necesitas ayuda o una lista compartida ingresa a nuestro grupo de Telegram.</string>
+    <string name="telegram_text">GRUPO EN TELEGRAM</string>
+    <string name="exo_player_string">Reproductor interno(Recomendado)</string>
+    <string name="mx_player_string">Reproductor MX</string>
+    <string name="select_media_player">Seleccionar Reproductor</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="reject">CANCELAR</string>
+    <string name="search">search</string>
+    <string name="logo">logo</string>
+    <string name="about">Acerca de</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="policy_and_privacy">Politica de Privacidad</string>
+    <string name="fb_follow">Siguenos en Facebook</string>
+    <string name="session_name">Aquí podrás ingresar tu lista m3u</string>
+    <string name="loading">Cargando Contenido..\nExpere un momento por favor.</string>
+    <string name="favourites">Favoritos</string>
+    <string name="support">Soporte</string>
+    <string name="telegram_join">Siguenos en Telegram</string>
+    <string name="config">Configuracion</string>
+    <string name="share">Compartir</string>
+    <string name="policy_text">
+Play!tvGO no almacena, no ripea, no copia, no transmite y no sube los contenidos a internet. Nuestra aplicación simplemente selecciona, clasifica y finalmente enlaza transmisiones disponibles públicamente en Internet.
+Todas las marcas mencionadas y logos están registrados por sus legítimos propietarios y solamente se emplean como referencia a las mismas y con un fin de cita o comentario del nombre del canal.
+Play!tvGO, no decodifica señales de satélite ni de cable directamente, todo lo puesto en este sitio ha sido encontrado en diferentes sitios públicos encontrados como libre distribución sin ninguna protección. Los enlaces que figuran en este sitio han sido encontrados en diferentes webs de streaming online (pastebin.com, pasted.co, telerium.com, acestream.com, etc…) y desconocemos si los mismos tienen contratos de cesión de derechos sobre estos canales o eventos de pago para reproducirlos, alojarlos o permitir verlos.
+En caso de encontrar material que infringe la ley o los derechos de autor póngase en contacto con el departamento de administración para su retirada inmediata.
+Play!tvGO, Utiliza servicio de terceros que pueden recopilar información utilizada para identificarlo como son Servicios de AdMob.
+Enlace a la política de privacidad de los proveedores de servicios de terceros utilizados por la aplicación:
+admob:
+https://support.google.com/admob/answer/6128543?hl=en
+Este sitio web pudiera contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.
+En cualquier caso, el Usuario acepta que la Política de Privacidad vigente en cada momento, la cual asume y acepta como consecuencia del uso y navegación en la App.
+Cualquier cambio o actualización de esta política será publicada en este sitio.
+Contáctenos si tiene alguna pregunta o sugerencia acerca de mi Política de privacidad, no dude en ponerse en contacto conmigo.
+
+    </string>
+    <string name="title_activity_add">Add Activity</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="stream_now">Elegir Servidor</string>
+</resources>

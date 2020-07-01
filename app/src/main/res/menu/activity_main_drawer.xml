@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/favourites" />
+
+    </group>
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/nav_telegram"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="@string/telegram_join" />
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/config" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="@string/policy_and_privacy" />
+        </menu>
+    </item>
+</menu>

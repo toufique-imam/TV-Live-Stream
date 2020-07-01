@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/White"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="200dp"
+
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/textView_sheet_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="@string/select_media_player"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rb_exo"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_sheet_1">
+
+        <RadioButton
+            android:id="@+id/rb_exo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exo_player_string" />
+
+        <RadioButton
+            android:id="@+id/rb_mx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mx_player_string" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_sheet_accept"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/White"
+        android:padding="3dp"
+        android:text="@string/accept"
+        android:textColor="@color/Green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sheet_reject"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group_sheet" />
+
+    <Button
+        android:id="@+id/button_sheet_reject"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/White"
+        android:padding="3dp"
+        android:text="@string/reject"
+        android:textColor="@color/Red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group_sheet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
